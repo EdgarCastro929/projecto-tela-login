@@ -3,4 +3,15 @@
 /*
 verde: #49a09d
 lilas: #5f2c82
+
+min-width -> e aplicada quando a lagura e igual ou mair que o valor Ex.:min-width(largura >= valor.px)
+max-width -> e aplicada quando a largura e menor que o valor Ex.: max-width (largura < valor.px)
 */
+@media (min-width: 600px){
+    body{
+        background-color: rgba(8, 167, 230, 0.76);
+    }
+    main > .login {
+        background-color: rgb(6, 165, 165);
+    }
+}
