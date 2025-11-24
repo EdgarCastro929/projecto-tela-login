@@ -28,6 +28,17 @@ main{
     width: 100vw;
     height: 100vh;
 }
+main > #autor{
+    position: absolute;
+    text-align: center;
+    
+    color: rgba(255, 255, 255, 0.26);
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
 section.login{
     position: absolute;
     top: 50%;
