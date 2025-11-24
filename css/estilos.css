@@ -9,6 +9,7 @@ lilas: #5f2c82
 
 min-width -> e aplicada quando a lagura e igual ou mair que o valor Ex.:min-width(largura >= valor.px)
 max-width -> e aplicada quando a largura e menor que o valor Ex.: max-width (largura < valor.px)
+rgb(168, 4, 4)
 */
 
 *{
@@ -18,7 +19,7 @@ max-width -> e aplicada quando a largura e menor que o valor Ex.: max-width (lar
     box-sizing: border-box;
 }
 body, html{
-    background-color: rgb(168, 4, 4);
+    background-color: black;
     height: 100vh;
     width: 100vw;
 }
@@ -50,7 +51,7 @@ section.login{
     width: 250px;
     height: 500px;
     border-radius: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+    box-shadow: 0px 0px 40px rgba(168, 4, 4);
     transition: width .3s, height .3s;
     transition-timing-function: ease;
     transform: translate(-50%,-50%);
